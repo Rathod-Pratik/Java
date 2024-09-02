@@ -12,5 +12,6 @@ public class input{
 
         System.out.println("Sum of the two value os :");
         System.out.println(a+b);
+        sc.close();
     }
 }

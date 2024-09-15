@@ -1,6 +1,5 @@
-//Use to get input from the user
 import java.util.Scanner;
-public class input{
+public class _03_Scanner {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
 
@@ -13,5 +12,5 @@ public class input{
         System.out.println("Sum of the two value os :");
         System.out.println(a+b);
         sc.close();
-    }
+}
 }

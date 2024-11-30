@@ -1,6 +1,6 @@
 public class _14_VarArgs {
 
-    /*Store the all value in arr in array fromat and access using string*/
+    /*Store the all value in arr in array format and access using string*/
     static void sum(int a,int ...arr){
         long sum=0;
         for(int i=0; i<arr.length; i++){

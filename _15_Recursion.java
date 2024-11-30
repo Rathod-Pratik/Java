@@ -7,6 +7,14 @@ public class _15_Recursion {
             return n* factorial(n-1);
         }
     }
+    static double febonaci(int n){
+        if(n==0 || n==1){
+            return  1;
+        }
+        else {
+            return n+ febonaci(n-1);
+        }
+    }
     static double factorial_itrative(int n){
         double iterate_value=1;
         if(n==0 || n==1){
@@ -20,10 +28,14 @@ public class _15_Recursion {
         }
     }
     public static void main(String[] args) {
-        double a=factorial(5);
-        double b=factorial_itrative(5);
-        System.out.println("The Value of factorial is"+ a);
 
+        double a=factorial(5);
+        System.out.println("The Value of factorial is"+ a);
+        
+        double b=factorial_itrative(5);
         System.out.println("The Value of factorial is"+ b);
+
+        double c=febonaci(5);
+        System.out.println("The value of febonaci is "+c);
     }
 }

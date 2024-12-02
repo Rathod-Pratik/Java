@@ -1,14 +1,14 @@
-class MyInfo {
+class MyClass {
     private int age;
     private String name; // Fixed casing for variables
 
     // Default constructor
-    public MyInfo() {
+    public MyClass() {
         System.out.println("You have not entered your name or age.");
     }
 
     // Constructor with int and String parameters
-    public MyInfo(int myId, String myName) {
+    public MyClass(int myId, String myName) {
         this.age = myId;
         this.name = myName;
         System.out.println("Your name is " + name);
@@ -16,7 +16,7 @@ class MyInfo {
     }
 
     // Constructor with only String parameter
-    public MyInfo(String myName) {
+    public MyClass(String myName) {
         this.name = myName;
         System.out.println("Your name is " + name);
     }
@@ -25,12 +25,12 @@ class MyInfo {
 public class _18_Constructor {
     public static void main(String[] args) {
         // Default constructor
-        MyInfo p1 = new MyInfo();
+        MyClass p1 = new MyClass();
 
         // Constructor with String parameter
-        MyInfo p2 = new MyInfo("Rathod Pratik");
+        MyClass p2 = new MyClass("Rathod Pratik");
 
         // Constructor with int and String parameters
-        MyInfo p3 = new MyInfo(10, "Rathod Pratik");
+        MyClass p3 = new MyClass(10, "Rathod Pratik");
     }
 }

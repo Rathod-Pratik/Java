@@ -32,7 +32,7 @@ public class _19_Single_Inheritance {
     Mohit.PrintData();
 
     Student Anish=new Student();
-    Anish.setCourse("Scince");
+    Anish.setCourse("Science");
     Anish.setStudent_id(11);
     Anish.setName("Anish Dusara");
     Anish.PrintData();

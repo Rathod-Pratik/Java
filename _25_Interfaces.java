@@ -4,7 +4,7 @@ interface Vehicles {
     void applyBrake(int a);
 }
 
-class Cars implements Vehicles {
+class cars implements Vehicles {
 
     @Override
     public void changeGear(int a) {
@@ -25,8 +25,8 @@ class Cars implements Vehicles {
 public class _25_Interfaces {
     public static void main(String[] args) {
         Cars car = new Cars();
-        car.changeGear(3);
-        car.speedUp(60);
-        car.applyBrake(2);
+        Car.changeGear(3);
+        Car.speedUp(60);
+        Car.applyBrake(2);
     }
 }

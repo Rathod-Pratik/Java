@@ -1,4 +1,4 @@
-class outerClass {
+class OuterClasses {
     static int a=100;
     private static int b=200;
      int c=300;
@@ -14,6 +14,6 @@ class outerClass {
     }
 
     public static void main(String[] args) {
-        outerClass.Nested r=new outerClass.Nested();
+        OuterClasses.Nested r=new OuterClasses.Nested();
     }
 }

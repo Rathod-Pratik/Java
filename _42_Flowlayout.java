@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Main {
+ class _42_Flowlayout {
     public static void main(String[] args) {
         JFrame frame=new JFrame("FlowLayout");
         frame.setLayout(new FlowLayout());

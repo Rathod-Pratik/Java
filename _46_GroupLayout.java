@@ -1,10 +1,10 @@
 
-    import javax.swing.*;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class _46_GridBagLayout {
+public class _46_GroupLayout {
         public static void main(String[] args) {
             // Create the main frame (window)
             JFrame frame = new JFrame("GroupLayout Example");

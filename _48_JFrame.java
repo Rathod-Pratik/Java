@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class _48_Frame {
+public class _48_JFrame {
     public static void main(String[] args) {
         // Create the main frame (window)
         JFrame frame = new JFrame();

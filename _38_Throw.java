@@ -1,4 +1,4 @@
-public class Throw {
+public class _38_Throw {
 
     // Method using throws keyword
     public static void checkAge(int age) throws IllegalArgumentException {

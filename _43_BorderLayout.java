@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class _42_BorderLayout {
+public class _43_BorderLayout {
     public static void main(String[] args) {
         JFrame frame=new JFrame("BorderLayout");
         frame.setLayout(new BorderLayout());

@@ -1,5 +1,5 @@
-package  CreatePackage;
-public class CreatePackage {
+package  _36_CreatePackage;
+public class _36_CreatePackage {
     public void showMessage(){
         System.out.println("this message coming from Package");
     }
@@ -7,7 +7,7 @@ public class CreatePackage {
         System.out.println(messages);
     }
     public static void main(String[] args) {
-        CreatePackage obj=new CreatePackage();
+        _36_CreatePackage obj=new _36_CreatePackage();
         obj.showMessage();
     }
 }

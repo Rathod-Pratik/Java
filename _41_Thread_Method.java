@@ -10,7 +10,7 @@ class MyThread extends Thread {
     }
 }
 
-public class Thread_Method {
+public class _41_Thread_Method {
     public static void main(String[] args) {
         // Create threads
         MyThread thread1 = new MyThread();

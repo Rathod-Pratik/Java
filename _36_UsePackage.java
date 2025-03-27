@@ -1,9 +1,9 @@
-import CreatePackage.CreatePackage;
+import _36_CreatePackage.CreatePackage;
 
-public class UsePackage {
+public class _36_UsePackage {
     public static void main(String[] args) {
         // Creating an instance of CreatePackage
-        CreatePackage objects = new CreatePackage();
+        _36_CreatePackage objects = new _36_CreatePackage();
 
         // Calling the showMessage() method
         objects.showMessage();

@@ -2,8 +2,8 @@ public class _39_Garbage_Collector {
 
     public static void main(String[] args) {
         // Creating two objects of the GarbageCollectorDemo class
-        GarbageCollectorDemo example1 = new GarbageCollectorDemo();
-        GarbageCollectorDemo example2 = new GarbageCollectorDemo();
+        _39_Garbage_Collector example1 = new _39_Garbage_Collector();
+        _39_Garbage_Collector example2 = new _39_Garbage_Collector();
 
         // Making the objects eligible for garbage collection
         example1 = null;

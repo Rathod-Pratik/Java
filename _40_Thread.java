@@ -1,4 +1,4 @@
-public class Main {
+public class _40_Thread {
 
     class threads1 extends Thread {
         @Override
@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main mainInstance = new Main(); // Create an instance of the enclosing class
+        _40_Thread mainInstance = new _40_Thread(); // Create an instance of the enclosing class
         threads1 t1 = mainInstance.new threads1();
         threads2 t2 = mainInstance.new threads2();
 

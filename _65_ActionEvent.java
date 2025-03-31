@@ -1,3 +1,5 @@
+import java.awt.event.ActionListener;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -8,8 +10,11 @@ public class _65_ActionEvent {
 
         button.setBounds(100,100,120,40);
 
-        button.addActionListener(e->{
-            System.out.println("Button clicked Action Command: "+e.getActionCommand() );
+        button.addActionListener(new ActionListener() {
+            
+         public void actionPerformed(java.awt.event.ActionEvent e) {
+                System.out.println("Button clicked");
+            }
         });
 
         frame.add(button);

@@ -1,3 +1,6 @@
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 
@@ -7,13 +10,15 @@ public class _66_ItemEvent {
         JCheckBox checkBox = new JCheckBox("Accept Terms");
         checkBox.setBounds(100,100,150,40);
 
-        checkBox.addItemListener(e->{
+        checkBox.addItemListener( new ItemListener() {
+            public void itemStateChanged(ItemEvent e){
             if(e.getStateChange() == e.SELECTED){
                 System.out.println("CheckBox Checked");
             }
             else{
                 System.out.println("CheckBox unChecked");
             }
+        }
         });
 
         frame.add(checkBox);
